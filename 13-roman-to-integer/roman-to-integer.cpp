@@ -10,7 +10,7 @@ public:
         mp1['C']=100;
         mp1['D']=500;
         mp1['M']=1000;
-        int value=mp1[s.back()];
+        int value=mp1[s[s.size()-1]];
         for(int i=s.size()-2;i>=0;i--){
             
             if(mp1[s[i]]<mp1[s[i+1]]){
