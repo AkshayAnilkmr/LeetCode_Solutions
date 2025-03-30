@@ -23,7 +23,7 @@ public:
         ListNode*q=NULL;
         if (index == 0) {
             ListNode* newHead = head->next;
-            delete head;  // Free memory
+            delete head; 
             return newHead;
         }
 
